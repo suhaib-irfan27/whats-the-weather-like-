@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+
+}
+
+.container {
+    width: 40%;
+    top: 25%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 120px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#tasks {
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    padding: 30px 20px;
+    margin-top: 90px;
+}
+
+.form-control {
+    margin-right: 27px;
+}
